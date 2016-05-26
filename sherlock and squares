@@ -1,0 +1,22 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    long long int t,n1,n2;
+    cin>>t;
+    while(t--)
+        {
+        cin>>n1>>n2;
+        n1=ceil(sqrt(n1));
+        n2=floor(sqrt(n2));
+        cout<<n2-n1+1<<endl;
+        
+    }
+    return 0;
+}
